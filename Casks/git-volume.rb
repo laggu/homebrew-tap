@@ -3,7 +3,7 @@ cask "git-volume" do
   name "git-volume"
   desc "Manage environment files across Git worktrees"
   homepage "https://github.com/laggu/git-volume"
-  version "0.1.0"
+  version "0.2.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "git-volume" do
   on_macos do
     on_intel do
       url "https://github.com/laggu/git-volume/releases/download/v#{version}/git-volume_#{version}_darwin_amd64.tar.gz"
-      sha256 "b97c20a500ce8bc5dbcee01263f13d69ce5e31eb06a1b5b977e27e3bc5466675"
+      sha256 "5210b957df199fca8b4e7b5ecbecf71a30331096ba2fe97ce340b7a76e75cd5a"
     end
     on_arm do
       url "https://github.com/laggu/git-volume/releases/download/v#{version}/git-volume_#{version}_darwin_arm64.tar.gz"
-      sha256 "dce598eb1322da02d09e58f70e778987c3bab042ce51fac698ade4fba592a360"
+      sha256 "21285225ea50717b2e1fc61ef0958cf952b128aec13f7f1a704abc6e7f411431"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/laggu/git-volume/releases/download/v#{version}/git-volume_#{version}_linux_amd64.tar.gz"
-      sha256 "afcfb8243925f6779bde9b34319fb9bfd47c19ebbb4a6b7c5d90c9ea54e622e5"
+      sha256 "7e7bb101e6bc25cc61ae6043f4e395f2c09b7db0b5b3f46b10348e5cf4ca1781"
     end
     on_arm do
       url "https://github.com/laggu/git-volume/releases/download/v#{version}/git-volume_#{version}_linux_arm64.tar.gz"
-      sha256 "a4112dd798628efa22ce012ed14de179a0e2d7dbeff1b7b33f9cb0c426049919"
+      sha256 "4a636a062dcbd75d1f865d6c8f5920b88d0a0aa6112c438c1e0646fd8062393b"
     end
   end
 
