@@ -1,8 +1,8 @@
 class GitVolume < Formula
   desc "Manage environment files across Git worktrees"
   homepage "https://github.com/laggu/git-volume"
-  url "https://github.com/laggu/git-volume/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "43b6fe852e97d651ba77f02f4e0708e9b6b5b8aa5837810ac3a1dddde08a976d"
+  url "https://github.com/laggu/git-volume/archive/refs/tags/v0.3.1.tar.gz"
+  sha256 "43d17349957bad75fb5a95ce1166bb55f4ac3760d37de045bb449491b8abb2f9"
   license "GPL-3.0-only"
 
   depends_on "go" => :build
